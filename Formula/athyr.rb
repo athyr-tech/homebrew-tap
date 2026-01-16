@@ -1,31 +1,31 @@
 # Athyr Homebrew Formula
-# Auto-updated on release via: make update-homebrew VERSION=vX.Y.Z
+# Auto-updated on release
 
 class Athyr < Formula
   desc "AI agent orchestration platform"
   homepage "https://athyr.tech"
-  version "0.1.0"
+  version "0.1.1"
   license "MIT"
 
   on_macos do
     on_arm do
-      url "https://github.com/athyr-tech/athyr-bin/releases/download/v0.1.0/athyr_0.1.0_darwin_arm64.tar.gz"
-      sha256 "3df36ea5815d9e3e29fa5c14db5e5b7597a213df59dee3bcc9f55a38582b9249"
+      url "https://github.com/athyr-tech/athyr-bin/releases/download/v0.1.1/athyr_0.1.1_darwin_arm64.tar.gz"
+      sha256 "a8bd69ddd0c41986f730196cd2fc9b5c58b9928b08d58374d99b1f13d69372fe"
     end
     on_intel do
-      url "https://github.com/athyr-tech/athyr-bin/releases/download/v0.1.0/athyr_0.1.0_darwin_amd64.tar.gz"
-      sha256 "504796f7971ea244bcb46b419d002226190c6a9ce05e3298d530ce6a33fb48ee"
+      url "https://github.com/athyr-tech/athyr-bin/releases/download/v0.1.1/athyr_0.1.1_darwin_amd64.tar.gz"
+      sha256 "54c773fb1da96489b95fe0fe340e60c52e158bcd483e0d37e5eebe6a65b909c1"
     end
   end
 
   on_linux do
     on_arm do
-      url "https://github.com/athyr-tech/athyr-bin/releases/download/v0.1.0/athyr_0.1.0_linux_arm64.tar.gz"
-      sha256 "41d56cfd66c95929173df59a4b6fef155376e43ec59c913d59bf89f35cc687c2"
+      url "https://github.com/athyr-tech/athyr-bin/releases/download/v0.1.1/athyr_0.1.1_linux_arm64.tar.gz"
+      sha256 "12b8ad7a24c69aa0c3e5ed495c4f3ac3e3a87add52c582d85b5fc04be678663e"
     end
     on_intel do
-      url "https://github.com/athyr-tech/athyr-bin/releases/download/v0.1.0/athyr_0.1.0_linux_amd64.tar.gz"
-      sha256 "2d1ce1136370cd5c7fb3609b1067b2f5a15491d2b66762dd1db29fd669f20488"
+      url "https://github.com/athyr-tech/athyr-bin/releases/download/v0.1.1/athyr_0.1.1_linux_amd64.tar.gz"
+      sha256 "8adab783a3f47b1a82126f246908b44611e2ec9f95734cd8dcdcebacd01e5516"
     end
   end
 
