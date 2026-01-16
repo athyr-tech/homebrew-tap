@@ -34,6 +34,6 @@ class Athyr < Formula
   end
 
   test do
-    system "#{bin}/athyr", "version"
+    system "#{bin}/athyr", "--version"
   end
 end
