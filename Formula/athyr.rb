@@ -4,28 +4,28 @@
 class Athyr < Formula
   desc "AI agent orchestration platform"
   homepage "https://athyr.tech"
-  version "0.1.13"
+  version "0.1.14"
   license "MIT"
 
   on_macos do
     on_arm do
-      url "https://github.com/athyr-tech/athyr-bin/releases/download/v0.1.13/athyr_0.1.13_darwin_arm64.tar.gz"
-      sha256 "198f553a04cd63f071d502786a74c443170aadbdc29d5f65392797a66a2a7ec9"
+      url "https://github.com/athyr-tech/athyr-bin/releases/download/v0.1.14/athyr_0.1.14_darwin_arm64.tar.gz"
+      sha256 "90ca0351caf8ba4ca36dcf4274b26c84488a6ef078b827c58d0fa2d24abf8237"
     end
     on_intel do
-      url "https://github.com/athyr-tech/athyr-bin/releases/download/v0.1.13/athyr_0.1.13_darwin_amd64.tar.gz"
-      sha256 "bfdaffb658577731875d4026b42f4fa88b6049ee19908acd6dd2dee8b4d14001"
+      url "https://github.com/athyr-tech/athyr-bin/releases/download/v0.1.14/athyr_0.1.14_darwin_amd64.tar.gz"
+      sha256 "8719e7704cfead28f6060a42c2aee2f51bb28acd0986daaee1709127c19f13ff"
     end
   end
 
   on_linux do
     on_arm do
-      url "https://github.com/athyr-tech/athyr-bin/releases/download/v0.1.13/athyr_0.1.13_linux_arm64.tar.gz"
-      sha256 "546ecc38ba813b6158811e45afbd6d5d83f6df5171d6a87cf8e9a40b9656f5ef"
+      url "https://github.com/athyr-tech/athyr-bin/releases/download/v0.1.14/athyr_0.1.14_linux_arm64.tar.gz"
+      sha256 "88af0551ea034e454d4f0971366589b4feed8e5ab6f1ba238b77243061ae4dbc"
     end
     on_intel do
-      url "https://github.com/athyr-tech/athyr-bin/releases/download/v0.1.13/athyr_0.1.13_linux_amd64.tar.gz"
-      sha256 "66da8493a587c8ab0f3b173ee4b5fb8011e31133d47751e47f1f75f3708d82bd"
+      url "https://github.com/athyr-tech/athyr-bin/releases/download/v0.1.14/athyr_0.1.14_linux_amd64.tar.gz"
+      sha256 "931fc90005ad5f8b16ea508a7bee527bf7d151b1ff2f7be09c0297cc2f71b9e5"
     end
   end
 
