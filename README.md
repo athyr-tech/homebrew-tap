@@ -1,6 +1,6 @@
 # Athyr Homebrew Tap
 
-Official Homebrew tap for [Athyr](https://athyr.tech) - AI agent orchestration platform.
+Official Homebrew tap for [Athyr](https://athyr.enkitech.de) - AI agent orchestration platform.
 
 ## Installation
 

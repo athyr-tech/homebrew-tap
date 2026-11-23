@@ -3,7 +3,7 @@
 
 class Athyr < Formula
   desc "AI agent orchestration platform"
-  homepage "https://athyr.tech"
+  homepage "https://athyr.enkitech.de"
   version "0.1.14"
   license "MIT"
 
